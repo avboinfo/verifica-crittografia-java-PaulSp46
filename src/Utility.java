@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Utility {
 
-    public static int scegli(String[] m, Scanner keyInput) throws Exception{
+    public static int scegli(String[] m, Scanner keyInput){
         int scelta = 0;
-        if (m.length == 0) throw new Exception("Errore, vettore di scelte vuoto!");
+        //if (m.length == 0) throw new Exception("Errore, vettore di scelte vuoto!");
         
         System.out.println("Menu: ");
         for (int i = 0; i < m.length; i++) {
